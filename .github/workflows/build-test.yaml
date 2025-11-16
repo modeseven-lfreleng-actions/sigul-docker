@@ -97,7 +97,7 @@ jobs:
     steps:
       # Harden the runner used by this workflow
       # yamllint disable-line rule:line-length
-      - uses: step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911 # v2.13.0
+      - uses: step-security/harden-runner@95d9a5deda9de15063e7595e9719c11c38c90ae2 # v2.13.2
         with:
           egress-policy: 'audit'
 
@@ -230,7 +230,7 @@ jobs:
     steps:
       # Harden the runner used by this workflow
       # yamllint disable-line rule:line-length
-      - uses: step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911 # v2.13.0
+      - uses: step-security/harden-runner@95d9a5deda9de15063e7595e9719c11c38c90ae2 # v2.13.2
         with:
           egress-policy: 'audit'
 
@@ -497,7 +497,7 @@ jobs:
     steps:
       # Harden the runner used by this workflow
       # yamllint disable-line rule:line-length
-      - uses: step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911 # v2.13.0
+      - uses: step-security/harden-runner@95d9a5deda9de15063e7595e9719c11c38c90ae2 # v2.13.2
         with:
           egress-policy: 'audit'
 
@@ -696,7 +696,7 @@ jobs:
     steps:
       # Harden the runner used by this workflow
       # yamllint disable-line rule:line-length
-      - uses: step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911 # v2.13.0
+      - uses: step-security/harden-runner@95d9a5deda9de15063e7595e9719c11c38c90ae2 # v2.13.2
         with:
           egress-policy: 'audit'
 
@@ -993,7 +993,7 @@ jobs:
     steps:
       # Harden the runner used by this workflow
       # yamllint disable-line rule:line-length
-      - uses: step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911 # v2.13.0
+      - uses: step-security/harden-runner@95d9a5deda9de15063e7595e9719c11c38c90ae2 # v2.13.2
         with:
           egress-policy: 'audit'
 
@@ -1254,7 +1254,7 @@ jobs:
     steps:
       # Harden the runner used by this workflow
       # yamllint disable-line rule:line-length
-      - uses: step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911 # v2.13.0
+      - uses: step-security/harden-runner@95d9a5deda9de15063e7595e9719c11c38c90ae2 # v2.13.2
         with:
           egress-policy: 'audit'
 
